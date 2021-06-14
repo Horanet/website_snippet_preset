@@ -6,6 +6,7 @@ from odoo import fields, models
 
 class SnippetPreset(models.Model):
     _name = "snippet.preset"
+    _description = "Preset of a snippet."
 
     snippet = fields.Char()
     name = fields.Char()
